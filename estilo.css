@@ -1,0 +1,21 @@
+.musica { 
+    border: 1px #CCC solid;
+    color: white;
+    border-radius: 10px;
+}
+
+.player { 
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #215757;
+    height: 80px;
+}
+
+.barrinha {
+    display: inline;
+    background-color: #CCC;
+    height: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
