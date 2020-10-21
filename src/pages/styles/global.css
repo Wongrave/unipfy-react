@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, .7);
+}
+
+body, input, button, textarea {
+    font: 400 18px 'Commissioner', sans serif;
+}

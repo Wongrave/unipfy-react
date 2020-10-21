@@ -1,0 +1,65 @@
+#page-landing {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(89, 2, 74, 0.8), rgba(63, 2, 74, 0.5), rgba(125, 12, 145, 0.8)), linear-gradient(to right, rgba(63, 26, 14, 1), rgba(63, 2, 74, 0), rgba(125, 12, 145, 1)), url('../../images/ednaldo.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wrapper{ 
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 720px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-landing .content-wrapper main {
+    max-width: 520px;
+}
+
+#page-landing .content-wrapper main h1 {
+    text-align: right;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+#page-landing .content-wrapper main p {
+    text-align: right;
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.content-wrapper .plan {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.content-wrapper .plan h1 {
+    margin-bottom: -10px;
+}
+
+.content-wrapper .button {
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #BA58C4;
+    font-size: 24px;
+    border-radius: 10px;
+
+}
