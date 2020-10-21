@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(89, 2, 74, 0.8), rgba(63, 2, 74, 0.5), rgba(125, 12, 145, 0.8)), linear-gradient(to right, rgba(63, 26, 14, 1), rgba(63, 2, 74, 0), rgba(125, 12, 145, 1)), url('../../images/ednaldo.png');
+    background-image: linear-gradient(to bottom, rgba(89, 2, 74, 0.8), rgba(63, 2, 74, 0.5), rgba(125, 12, 145, 0.8)), linear-gradient(to right, rgba(63, 26, 14, 1), rgba(63, 2, 74, 0), rgba(125, 12, 145, 1)), url('https://img.redbull.com/images/c_crop,x_0,y_143,h_673,w_1199/c_fill,w_1500,h_1000/q_auto,f_auto/redbullcom/2014/03/28/1331642297869_2/linkin-park');
     display: flex;
     justify-content: center;
     align-items: center;
