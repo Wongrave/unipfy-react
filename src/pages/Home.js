@@ -16,6 +16,8 @@ export default function Home() {
                         Músicas recomendadas
                     </h1>
                     <div className="music">
+                        <img src="https://3.bp.blogspot.com/-ha49Q8OMvIg/VMowTN5HLVI/AAAAAAAAFjw/leOuwq00SvM/s1600/linkin-park1.jpg" 
+                            alt="Linkin Park" className="music-image" />
                         <span className="music-name"> Numb </span>
                         <span className="music-artist"> Linkin Park </span>
                         <div className="music-buttons">
