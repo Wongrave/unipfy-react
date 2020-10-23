@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaPlay, FaHeart } from 'react-icons/fa'
 
-import { FaHeadphonesAlt } from 'react-icons/fa'
+import Sidebar from '../components/Sidebar'
 
 import "./styles/global.css"
 import "./styles/home.css"
@@ -9,20 +10,27 @@ export default function Home() {
     return (
         <div id="home">
             <div className="page">
-                <aside>
-                    <header>
-                        <div className="logo">
-                            <FaHeadphonesAlt size={42} className="logo-icon" /><span>nipfY</span>
+                <Sidebar />
+                <div className="musics">
+                    <h1>
+                        Músicas recomendadas
+                    </h1>
+                    <div className="music">
+                        <span className="music-name"> Numb </span>
+                        <span className="music-artist"> Linkin Park </span>
+                        <div className="music-buttons">
+                            <div className="music-duration"> 03:21 </div>
+                            <FaPlay size={14} />
+                            <FaHeart size={14} />
                         </div>
-                        <ul>
-                            <li><span className="item"> O {'\u00A0'} Lauro <span className="edit">editar</span> </span></li>
-                            <li><span className="item"> O {'\u00A0'} Amigos </span></li>
-                            <li><span className="item"> O {'\u00A0'} Playlist </span></li>
-                            <li><span className="item"> O {'\u00A0'} Preferidas </span></li>
-                            <li><span className="item"> O {'\u00A0'} Outras </span></li>
-                        </ul>
-                    </header>
-                </aside>
+                    </div>
+                    <h1>
+                        Minhas músicas
+                    </h1>
+                    <h1>
+                        Amigos escutaram
+                    </h1>
+                </div>
             </div>
         </div>
     )
